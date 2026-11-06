@@ -25,19 +25,19 @@ Execuções esperadas*
 - Sucesso esperado
 
 2. maria@email.com
-Senha: errada
-Esperado: Senha incorreta
-Bloqueio esperado
+- Senha: errada
+- Esperado: Senha incorreta
+- Bloqueio esperado
 
 3. E-mail vazio
-Senha: senha123
-Esperado: E-mail obrigatório
-Bloqueio esperado
+- Senha: senha123
+- Esperado: E-mail obrigatório
+- Bloqueio esperado
 
 5. maria@email.com
-Senha: Senha vazia
-Esperado: Senha obrigatória
-Bloqueio esperado
+- Senha: Senha vazia
+- Esperado: Senha obrigatória
+- Bloqueio esperado
 
 
 ## Atenção: os quatro resultados são comportamentos esperados. O teste só será aprovado se o sistema apresentar exatamente o resultado esperado.
