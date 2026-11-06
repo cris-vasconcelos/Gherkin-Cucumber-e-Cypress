@@ -19,23 +19,22 @@ Esses campos serão substituídos por palavras chaves.
 Execuções esperadas*
 ## Exemplos##
 
-1.
-maria@email.com
+1. maria@email.com
 Senha: senha123
 Esperado: Acesso permitido
 Sucesso esperado
 
-maria@email.com
+2. maria@email.com
 Senha: errada
 Esperado: Senha incorreta
 Bloqueio esperado
 
-E-mail vazio
+3. E-mail vazio
 Senha: senha123
 Esperado: E-mail obrigatório
 Bloqueio esperado
 
-maria@email.com
+5. maria@email.com
 Senha: Senha vazia
 Esperado: Senha obrigatória
 Bloqueio esperado
