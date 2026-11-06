@@ -9,58 +9,38 @@ ex:
 ```
 <email>
 <senha>
-<resultado> ```
+<resultado>
+ ```
 Esses campos serão substituídos por palavras chaves.
 
 ## Como o cumcumber executará os testes?
 
-Cada linha da tabela representa uma execução independente.
-Execuções esperadas
-01
+*Cada linha da tabela representa uma execução independente.
+Execuções esperadas*
+## Exemplos##
 
-maria@email.com
-
+1.maria@email.com
 Senha: senha123
-
 Esperado: Acesso permitido
-
 Sucesso esperado
 
-
-02
-
-maria@email.com
-
+2.maria@email.com
 Senha: errada
-
 Esperado: Senha incorreta
-
 Bloqueio esperado
 
-
-03
-
-E-mail vazio
-
+3.E-mail vazio
 Senha: senha123
-
 Esperado: E-mail obrigatório
-
 Bloqueio esperado
 
-
-04
-
-maria@email.com
-
+4.maria@email.com
 Senha: Senha vazia
-
 Esperado: Senha obrigatória
-
 Bloqueio esperado
 
 
-Atenção: os quatro resultados são comportamentos esperados. O teste só será aprovado se o sistema apresentar exatamente o resultado esperado.
+## Atenção: os quatro resultados são comportamentos esperados. O teste só será aprovado se o sistema apresentar exatamente o resultado esperado.
 5. Qual a vantagem para QA?
 - Evita repetição de cenários.
 - Facilita testes com diferentes combinações de dados.
