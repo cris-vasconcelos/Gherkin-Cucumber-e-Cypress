@@ -1,0 +1,20 @@
+#Conhcendo o GIVEN, THAN E WHEN
+
+## Essas três palavras são estruturas básica de muitos cenários GHERKIN.
+- **GIVEN (dado):** Apresenta a condição inicial.
+- **When  (Quando):** Descreve a ação executada.
+- **Then (Então):** Descreve o resultado esperado.
+
+
+##Exemplo
+
+###Feature login
+
+```Scenario: Login com sucesso
+  - Given que estou na página de login
+  - When informo meu usuário e senha válida
+  - And clico no botão entrar
+  - Then devo visualizar a página inicial
+```
+  ### Também temos:
+  - 
