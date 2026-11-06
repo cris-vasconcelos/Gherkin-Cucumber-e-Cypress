@@ -20,9 +20,9 @@ Execuções esperadas*
 ## Exemplos##
 
 1. maria@email.com
-Senha: senha123
-Esperado: Acesso permitido
-Sucesso esperado
+- Senha: senha123
+- Esperado: Acesso permitido
+- Sucesso esperado
 
 2. maria@email.com
 Senha: errada
