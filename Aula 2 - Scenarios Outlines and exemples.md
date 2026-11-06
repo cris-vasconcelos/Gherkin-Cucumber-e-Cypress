@@ -34,7 +34,7 @@ Execuções esperadas*
 - Esperado: E-mail obrigatório
 - Bloqueio esperado
 
-5. maria@email.com
+4. maria@email.com
 - Senha: Senha vazia
 - Esperado: Senha obrigatória
 - Bloqueio esperado
