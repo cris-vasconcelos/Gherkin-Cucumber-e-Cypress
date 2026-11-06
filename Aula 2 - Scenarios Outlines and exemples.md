@@ -48,3 +48,21 @@ Execuções esperadas*
 - Permite ampliar a cobertura de testes.
 Mas cuidado: não devemos colocar tudo em um único Scenario Outline. Use-o quando os cenários compartilham o mesmo comportamento e a mesma sequência de passos.
 
+### Exemples
+1. ### Feature: Cadastro de usuário com a idade miníma permitida
+
+``` Scenario: Idade permitida e não permitida
+    - Give  que estou na página de cadastro de usuário
+    - When informo a idade  "< idade >"
+    - Then devo visualizar a mensagem "< Mensagem >" 
+
+ Exemplos
+    |idade  | Mensagem|
+    |18 anos| Permitido|
+    |17 anos| Não permitido|
+    |25 anos| Permitido|
+```
+
+## Dica: Scenario Outline define o roteiro do teste; Examples fornece os diferentes dados para executar esse roteiro. ##
+         
+   
