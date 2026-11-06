@@ -52,3 +52,19 @@ Todos os cenários abaixo precisam começar com o usuário na página inicial da
 Temos dois cenários:
 1. Pesquisar um produto.
 2. Adicionar um produto ao carrinho.
+
+```
+*Feature: Operação de compras*
+
+Background
+Given que estou acessando a página de produto
+
+Scenario: Pesquisar produto
+When digito o nome do produto no campo pesquisar
+Then  o sistema deve exibir os produtos correspondentes
+
+Scenario: Adicionar o produto no carrinho
+When adiciono o produto no carrinho
+Then o sistema mostra a mensagem "Produto adicionado no carrinho"
+```
+   
