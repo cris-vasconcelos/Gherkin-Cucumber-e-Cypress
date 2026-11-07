@@ -63,3 +63,45 @@ Você pode organizar a execução para selecionar apenas os cenários com determ
 - @login	        Testes relacionados ao login
 - @critico	      Funcionalidades críticas
 - @negativo	      Testes de comportamento inválido
+
+### Exercício prático
+Loja virtual com três cenários:
+- Login com sucesso.
+- Login com senha incorreta.
+- Cadastro de um novo usuário.
+
+  ```
+  @smoketest @critico
+  Feature: Login de usuário
+
+  @positive 
+  Scenario:Login com sucesso
+  - Given que estou na página de login
+  - When informo meu e-mail válido
+  - And informo minha senha correta
+  - And clico no botão entrar
+  - Then devo visualizar a página inicial
+
+
+  @negative
+  scenario:Login com senha incorreta
+  - Given que estou na página de login
+  - When informo meu e-mail válido 
+  - And informo minha senha incorreta
+  - And clico no botão entrar
+  - Then devo visualizar a mensagem "Senha incorreta"
+
+ @smoketest @critico @positivo 
+ Feature: Cadastro de usuários
+ 
+   scenario:Cadastro de novo usuário
+  - Given que estou na página de cadastro
+  - When preencho todos os campos obrigatórios
+  - And clico no botão cadastrar
+  - Then devo visualizar a mensagem "Usuário cadastrado"
+   ```
+  ### Para fixar
+- @positivo: verifica comportamentos esperados com dados válidos.
+- @negativo: verifica como o sistema reage a dados ou situações inválidas.
+- @smoketest: identifica testes básicos para verificar se as funcionalidades principais estão operacionais.
+- @regressao: identifica testes para verificar se alterações não prejudicaram funcionalidades existentes.
