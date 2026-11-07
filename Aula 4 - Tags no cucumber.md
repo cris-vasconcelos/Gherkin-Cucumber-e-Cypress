@@ -58,8 +58,8 @@ Você pode organizar a execução para selecionar apenas os cenários com determ
 ## Exemplos
 
 **Tag**        **Finalidade**
-@smoke	        Testes básicos para verificar se o sistema funciona
-@regressao	    Testes de regressão
-@login	        Testes relacionados ao login
-@critico	      Funcionalidades críticas
-@negativo	      Testes de comportamento inválido
+- @smoke	        Testes básicos para verificar se o sistema funciona
+- @regressao	    Testes de regressão
+- @login	        Testes relacionados ao login
+- @critico	      Funcionalidades críticas
+- @negativo	      Testes de comportamento inválido
