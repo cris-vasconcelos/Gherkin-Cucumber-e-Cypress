@@ -32,7 +32,7 @@ Como identificar os testes de regressão ? Ou quais os testes críticos?
   **Observe**
   - @login: indetifica os testes relacionados ao login
   - @regressão: identifica um testes que faz parte da regressão
-  - #negativo: identifica um cenário de testes negativos.
+  - @negativo: identifica um cenário de testes negativos.
 
   ## Posso utilizar várias tags?
   SIM, um cenário pode ter várias tags.
