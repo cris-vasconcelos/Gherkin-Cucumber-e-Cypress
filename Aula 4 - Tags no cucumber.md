@@ -51,4 +51,15 @@ Feature: Login de usuário
 
 ```
 Nesse caso, todos os cenários da Feature herdam essa Tag, além das tags individuais.
+## 2. Para que serve na Automação?
+Imagine se seu projeto possui 500 cenários automatizados.
+Você pode organizar a execução para selecionar apenas os cenários com determinada TAG.
 
+## Exemplos
+
+**Tag**        **Finalidade**
+@smoke	        Testes básicos para verificar se o sistema funciona
+@regressao	    Testes de regressão
+@login	        Testes relacionados ao login
+@critico	      Funcionalidades críticas
+@negativo	      Testes de comportamento inválido
