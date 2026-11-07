@@ -38,7 +38,7 @@ Como identificar os testes de regressão ? Ou quais os testes críticos?
   SIM, um cenário pode ter várias tags.
 
      *Exemplo*
-  ```
+```
 @login @regressao @critico
 Scenario: Login com credenciais válidas
 ```
