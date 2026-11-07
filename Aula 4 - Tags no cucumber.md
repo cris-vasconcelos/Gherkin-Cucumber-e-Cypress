@@ -90,7 +90,7 @@ Loja virtual com três cenários:
   - And informo minha senha incorreta
   - And clico no botão entrar
   - Then devo visualizar a mensagem "Senha incorreta"
-
+```
  @smoketest @critico @positivo 
  Feature: Cadastro de usuários
  
