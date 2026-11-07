@@ -94,14 +94,14 @@ Loja virtual com três cenários:
  @smoketest @critico @positivo 
  Feature: Cadastro de usuários
  
-   scenario:Cadastro de novo usuário
+  scenario:Cadastro de novo usuário
   - Given que estou na página de cadastro
   - When preencho todos os campos obrigatórios
   - And clico no botão cadastrar
   - Then devo visualizar a mensagem "Usuário cadastrado"
    ```
   ### Para fixar
-- @positivo: verifica comportamentos esperados com dados válidos.
-- @negativo: verifica como o sistema reage a dados ou situações inválidas.
-- @smoketest: identifica testes básicos para verificar se as funcionalidades principais estão operacionais.
-- @regressao: identifica testes para verificar se alterações não prejudicaram funcionalidades existentes.
+ - @positivo: verifica comportamentos esperados com dados válidos.
+ - @negativo: verifica como o sistema reage a dados ou situações inválidas.
+ - @smoketest: identifica testes básicos para verificar se as funcionalidades principais estão operacionais.
+ - @regressao: identifica testes para verificar se alterações não prejudicaram funcionalidades existentes.
