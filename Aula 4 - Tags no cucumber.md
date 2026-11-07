@@ -38,18 +38,17 @@ Como identificar os testes de regressão ? Ou quais os testes críticos?
   SIM, um cenário pode ter várias tags.
 
      *Exemplo*
-```
-@login @regressao @critico
-Scenario: Login com credenciais válidas
-```
+ ```
+ @login @regressao @critico
+ Scenario: Login com credenciais válidas
+ ```
 Nesse caso, o cenário pertence aos três grupos.
 Também podemos colocar uma Tag antes da Feature:
 
-  ```
-@regressao
-Feature: Login de usuário
-
-```
+ ```
+ @regressao
+ Feature: Login de usuário
+ ```
 Nesse caso, todos os cenários da Feature herdam essa Tag, além das tags individuais.
 ## 2. Para que serve na Automação?
 Imagine se seu projeto possui 500 cenários automatizados.
@@ -70,7 +69,7 @@ Loja virtual com três cenários:
 - Login com senha incorreta.
 - Cadastro de um novo usuário.
 
-  ```
+ ```
   @smoketest @critico
   Feature: Login de usuário
 
@@ -82,7 +81,6 @@ Loja virtual com três cenários:
   - And clico no botão entrar
   - Then devo visualizar a página inicial
 
-
   @negative
   scenario:Login com senha incorreta
   - Given que estou na página de login
@@ -91,15 +89,15 @@ Loja virtual com três cenários:
   - And clico no botão entrar
   - Then devo visualizar a mensagem "Senha incorreta"
 ```
- @smoketest @critico @positivo 
- Feature: Cadastro de usuários
+  @smoketest @critico @positivo 
+  Feature: Cadastro de usuários
  
   scenario:Cadastro de novo usuário
   - Given que estou na página de cadastro
   - When preencho todos os campos obrigatórios
   - And clico no botão cadastrar
   - Then devo visualizar a mensagem "Usuário cadastrado"
-   ```
+  ```
   ### Para fixar
  - @positivo: verifica comportamentos esperados com dados válidos.
  - @negativo: verifica como o sistema reage a dados ou situações inválidas.
