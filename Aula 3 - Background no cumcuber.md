@@ -57,14 +57,36 @@ Temos dois cenários:
 *Feature: Operação de compras*
 
 Background
-Given que estou acessando a página de produto
+Given estou na página inicial da loja
 
 Scenario: Pesquisar produto
 When digito o nome do produto no campo pesquisar
-Then  o sistema deve exibir os produtos correspondentes
+Then  o sistema exibe os resultados
 
 Scenario: Adicionar o produto no carrinho
 When adiciono o produto no carrinho
-Then o sistema mostra a mensagem "Produto adicionado no carrinho"
+Then o sistema exibe a confirmação com a mensagem "Produto adicionado"
 ```
-   
+
+Scenarios 2
+- Login com sucesso
+- Login com senha incorreta
+
+ ```
+  *Feature: Acesso ao login*
+
+Background
+Given estou na tela de login
+
+Scenario: Login com sucesso
+When digito o email válido
+And digito a senha válida
+Then o sistema realiza o login e exibe a mensagem de sucesso.
+
+Scenario: Login com senha incorreta
+When digito o email válido
+And digito a senha inválida
+Then o sistema realiza não realiza o login e exibe a mensagem de credenciais inválidas.
+```
+
+
