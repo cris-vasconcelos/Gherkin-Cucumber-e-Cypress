@@ -98,3 +98,53 @@ Then("Devo visualizar a página inicial",() => {
 - "/home" é o trecho esperado na URL.
 
 *Observação, esse trecho de código é didático*
+
+## Curiosidades
+*Você pode utilizar And, When e Then várias vezes. A escolha depende da função de cada etapa, não de uma quantidade obrigatória.*
+
+### 1. Qual é a diferença?
+- Given: estabelece a condição inicial do teste.
+- When: descreve uma ação realizada pelo usuário.
+- Then: descreve o resultado esperado.
+- And: acrescenta outra etapa, mantendo o sentido da etapa anterior.
+  
+### 2. Veja um exemplo de login
+```
+Feature: Login de usuário
+
+  Scenario: Login com sucesso
+    Given que estou na página de login
+    When informo meu e-mail válido
+    And informo minha senha correta
+    And clico no botão entrar
+    Then devo visualizar a página inicial
+    And devo visualizar meu nome de usuário
+```
+### Observe:
+Etapa	Função
+- Given	Define onde o teste começa
+- When	Primeira ação
+- And	Segunda ação
+- And	Terceira ação
+- Then	Primeiro resultado esperado
+- And	Segundo resultado esperado
+
+### 3. E no JavaScript?
+Aqui existe um detalhe interessante!
+No Step Definition, o And não precisa necessariamente ser implementado usando uma função chamada And().
+Por exemplo:  
+```When("informo meu e-mail válido", () => {
+    cy.get('[data-testid="email"]').type("maria@email.com");
+});
+
+When("informo minha senha correta", () => {
+    cy.get('[data-testid="senha"]').type("senha123");
+});
+
+When("clico no botão entrar", () => {
+    cy.get('[data-testid="entrar"]').click();
+});
+```
+Mesmo que no Gherkin você tenha escrito **And**, pode implementar essas etapas com **When()**.
+Isso acontece porque o **Cucumber** interpreta o **And** de acordo com a etapa anterior.
+- Uma regra importante: não escolha When ou Then apenas para variar o código. Escolha conforme o significado da etapa.
