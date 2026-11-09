@@ -53,7 +53,7 @@ Then("devo visualizar a página inicial", () => {
 ## Entenda o que cada um faz:
 
 - **cy.visit()**      **-	Acessa uma página**
-    - cy.get()	      - Localiza um elemento
-    - .type()         - Digita um conteúdo
-    - .click()	      - Clica em um elemento
+    - cy.get()	       Localiza um elemento
+    - .type()          Digita um conteúdo
+    - .click()	       Clica em um elemento
     - .should()	      - Faz uma validação
