@@ -37,3 +37,7 @@ curso-cucumber-cypress/
 │
 └── package.json
 ```
+- Gherkin: descreve o comportamento que queremos testar.
+- JavaScript: implementa as instruções e define as ações.
+- Cypress: executa essas ações no navegador e verifica os resultados.
+- Cucumber: interpreta o Gherkin e conecta cada etapa ao Step Definition correspondente.
