@@ -84,7 +84,7 @@ When ("Informo meu email", () => {
 When ("Informo minha senha",() => {
   cy.get ('[data-testid="senha"]').type("senha123")
 });
-And ("clico no botão entrar",() =>{
+Then ("clico no botão entrar",() =>{
  cy.get('[data-testid="entrar"]').click();
 });
 Then("Devo visualizar a página inicial",() => {
