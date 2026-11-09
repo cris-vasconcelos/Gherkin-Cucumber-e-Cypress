@@ -57,3 +57,17 @@ Then("devo visualizar a página inicial", () => {
     - .type()    |      Digita um conteúdo
     - .click()	 |      Clica em um elemento
     - .should()	 |      Faz uma validação
+
+Observe esta linha:
+``` cy.get('[data-testid="email"]').type("maria@email.com"); ```
+
+
+Ela significa:
+1. Localizar o campo de e-mail.
+2. Digitar maria@email.com.
+   
+E nesta:
+```
+cy.url().should("include", "/home");
+```
+Verifica se a URL contém /home.
