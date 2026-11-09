@@ -71,3 +71,30 @@ E nesta:
 cy.url().should("include", "/home");
 ```
 Verifica se a URL contém /home.
+
+### Exemplo 2
+```
+Given ("Estou na página iniciar", () => {
+  cy.visit ("/login");
+  });
+  
+When ("Informo meu email", () => {
+  cy.get ('[data-testing="email"]).type("cris.@teste.com')
+});
+When ("Informo minha senha",() => {
+  cy.get ('[data-testid="senha"]').type("senha123")
+});
+And ("clico no botão entrar",() =>{
+ cy.get('[data-testid="entrar"]').click();
+});
+Then("Devo visualizar a página inicial",() => {
+  cy.url().should ("include", "/home");
+}];
+```
+
+- cy.url() captura a URL atual do navegador.
+- .should() realiza uma verificação.
+- "include" indica que queremos verificar se existe determinado conteúdo.
+- "/home" é o trecho esperado na URL.
+
+*Observação, esse trecho de código é didático*
