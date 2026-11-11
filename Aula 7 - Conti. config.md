@@ -17,7 +17,7 @@ npm -v
 git --version
 ```
 
-## Caso não possui nenhum instalado, abaixo os camandos de instalação, lembrando que é para o Linux.
+## Caso não possui nenhum instalado, abaixo os comandos de instalação, lembrando que é para o Linux.
 1. Atualizar os pacotes
 ```
 sudo apt update
@@ -30,8 +30,9 @@ sudo apt install nodejs npm -y
 
 3. Instalar Git
 
-   ```
-   sudo apt install git -y
-   ```
-   
+```
+sudo apt install git -y
+```
+
+   ## observação - tenha instalado o VSCODE, CASO NÃO TIVER procure no google para fazer a instalação do vscode.
    
