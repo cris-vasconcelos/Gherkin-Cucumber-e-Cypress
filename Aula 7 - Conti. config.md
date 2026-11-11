@@ -16,3 +16,22 @@ npm -v
 ```
 git --version
 ```
+
+## Caso não possui nenhum instalado, abaixo os camandos de instalação, lembrando que é para o Linux.
+1. Atualizar os pacotes
+```
+sudo apt update
+```
+
+2. Instalar Node.js e npm
+```
+sudo apt install nodejs npm -y
+```
+
+3. Instalar Git
+
+   ```
+   sudo apt install git -y
+   ```
+   
+   
