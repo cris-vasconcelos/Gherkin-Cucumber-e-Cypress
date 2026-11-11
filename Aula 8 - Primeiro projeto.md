@@ -52,3 +52,15 @@ Depois, execute:
 ```
 npx cypress -v
 ```
+## 5. Abrir o cypress
+No terminal, execute:
+```
+npx cypress open
+```
+
+**O que deve acontecer:**
+1. O Cypress abrirá uma janela.
+2. Você verá a opção E2E Testing.
+3. Selecione E2E Testing.
+4. O Cypress solicitará a configuração inicial.
+5. Selecione o navegador disponível.
