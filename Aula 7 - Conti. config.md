@@ -2,13 +2,14 @@
 
 ## 1. Verificar o Node.js:
 
-``
-node -v
 ```
+node -v
+````
 
 ## 2. Verificar o npm:
 
-```npm -v
+```
+npm -v
 ```
 
 ## 3. Verificar o git
