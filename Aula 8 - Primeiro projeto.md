@@ -8,7 +8,7 @@ mkdir -p ~/Documentos/cypress-cucumber
 ```
 **Entre na pasta**
 ```
-cd ~/Projetos/cypress-cucumber
+cd ~/Documentos/cypress-cucumber
 ```
 **Abra o projeto**
 ```
