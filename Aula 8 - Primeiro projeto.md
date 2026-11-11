@@ -3,7 +3,7 @@
 
 Execute:
 ```
-mkdir -p ~/Projetos/cypress-cucumber
+mkdir -p ~/Documentos/cypress-cucumber
 
 ```
 **Entre na pasta**
