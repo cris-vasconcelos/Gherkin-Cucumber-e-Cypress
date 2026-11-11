@@ -10,7 +10,7 @@ cypress-cucumber/
 ```
 Para o nosso curso prático de **automação +cucumber+ javaScript**, vamos precisar dos seguintes recursos:
 
-  0.          Ordem  	|  Ferramenta     |	       Finalidade
+  0.          Ferramenta         |	       Finalidade
   1.        	Node.js	               Executar JavaScript no ambiente local.
   2.        	npm	                   Instalar e gerenciar bibliotecas.
   3.        	Cypress        	       Automatizar testes no navegador.
