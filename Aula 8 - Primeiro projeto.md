@@ -36,7 +36,7 @@ Depois da execução, você deverá encontrar:
 cypress-cucumber/
 └── package.json
 ```
-## 4.Instação do cypress
+## 4.Instalar o cypress
 
 No terminal do vscode, dentro da pasta cypress-cucumber, execute:
 ```
