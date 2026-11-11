@@ -19,3 +19,15 @@ Para o nosso curso prático de **automação +cucumber+ javaScript**, vamos prec
   6.     Google Chrome ou Chromium	 Navegador para executar os testes.
   7.	        Git	                       Versionar o projeto.
   8.	        GitHub	               Publicar seu projeto e documentar seu aprendizado.
+
+
+## Nossa sequência de configuração
+1. Verificar Node.js, npm, Git e VS Code.
+2. Instalar ou atualizar o Node.js, se necessário.
+3. Criar a pasta do projeto.
+4. Instalar Cypress.
+5. Instalar e configurar o Cucumber.
+6. Criar nosso primeiro arquivo .feature.
+7. Criar os Step Definitions em JavaScript.
+8. Executar o primeiro teste automatizado.
+9. Documentar e publicar no GitHub.
