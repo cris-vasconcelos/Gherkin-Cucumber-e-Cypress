@@ -64,3 +64,5 @@ npx cypress open
 3. Selecione E2E Testing.
 4. O Cypress solicitará a configuração inicial.
 5. Selecione o navegador disponível.
+
+## Para conhecer mais sobre o cypress, recomendo que leia a documentação: [cypress](https://docs.cypress.io/app/get-started/why-cypress)   
