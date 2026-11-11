@@ -36,3 +36,19 @@ Depois da execução, você deverá encontrar:
 cypress-cucumber/
 └── package.json
 ```
+## 4.Instação do cypress
+
+No terminal do vscode, dentro da pasta cypress-cucumber, execute:
+```
+npm install cypress --save-dev
+```
+O que esse comando faz?
+- npm install: instala uma biblioteca.
+- cypress: nome da ferramenta.
+- --save-dev: registra o Cypress como dependência de desenvolvimento no package.json.
+A instalação pode levar alguns minutos.
+
+Depois, execute:
+```
+npx cypress -v
+```
