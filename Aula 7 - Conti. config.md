@@ -13,5 +13,6 @@ npm -v
 ```
 
 ## 3. Verificar o git
-```git --version
+```
+git --version
 ```
