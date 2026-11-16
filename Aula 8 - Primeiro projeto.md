@@ -85,6 +85,7 @@ cypress-cucumber/
 └── package-lock.json
 ```
 Significado de cada termo:
+
 0. Pasta/arquivo	   |           Finalidade
 1. e2e	                      Onde ficam os testes automatizados.
 2. fixtures	                  Dados utilizados nos testes.
