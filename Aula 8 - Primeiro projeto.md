@@ -66,3 +66,31 @@ npx cypress open
 5. Selecione o navegador disponível.
 
 ## Para conhecer mais sobre o cypress, recomendo que leia a documentação: [cypress](https://docs.cypress.io/app/get-started/why-cypress)   
+
+## 6. Conhecendo a estrutura
+
+No vscode a estrutura deve está assim:
+```
+cypress-cucumber/
+│
+├── cypress/
+│   ├── e2e/
+│   │   └── exemplos.cy.js
+│   ├── fixtures/
+│   └── support/
+│
+├── node_modules/
+├── cypress.config.js
+├── package.json
+└── package-lock.json
+```
+Significado de cada termo:
+0. Pasta/arquivo	   |           Finalidade
+1. e2e	                      Onde ficam os testes automatizados.
+2. fixtures	                  Dados utilizados nos testes.
+3. support	                  Configurações e comandos de apoio.
+4. cypress.config.js	        Configurações do Cypress.
+5. package.json	              Dependências do projeto.
+6. node_modules	              Bibliotecas instaladas.
+
+
