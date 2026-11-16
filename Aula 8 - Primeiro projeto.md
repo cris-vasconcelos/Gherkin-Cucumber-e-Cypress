@@ -87,11 +87,12 @@ cypress-cucumber/
 Significado de cada termo:
 
 - Pasta/arquivo	   |           Finalidade
-1. - e2e	                      Onde ficam os testes automatizados.
-2. fixtures	                  Dados utilizados nos testes.
-3. support	                  Configurações e comandos de apoio.
-4. cypress.config.js	        Configurações do Cypress.
-5. package.json	              Dependências do projeto.
-6. node_modules	              Bibliotecas instaladas.
+
+1. e2e	           |           Onde ficam os testes automatizados.
+2. fixtures	       |           Dados utilizados nos testes.
+3. support	       |           Configurações e comandos de apoio.
+4. cypress.config.js  |	        Configurações do Cypress.
+5. package.json	      |        Dependências do projeto.
+6. node_modules	      |        Bibliotecas instaladas.
 
 
