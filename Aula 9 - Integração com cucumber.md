@@ -69,4 +69,14 @@ Essa configuração segue a integração recomendada na documentação do Cucumb
 - setupNodeEvents: inicializa a integração com Cucumber.
 - createEsbuildPlugin: prepara os arquivos Gherkin para execução.
 -return config: devolve a configuração atualizada ao Cypress. 
-   
+
+ ### Validação da configuração
+
+ 1. Feche a janela do Cypress, caso ainda esteja aberta.
+ 2. Volte ao terminal do VS Code.
+ 3. Execute:
+
+```
+npx cypress open
+```
+o Cypress deve abrir sem erro.
