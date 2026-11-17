@@ -10,7 +10,7 @@ npm install --save-dev @badeball/cypress-cucumber-preprocessor
 ```
 npm install --save-dev @bahmutov/cypress-esbuild-preprocessor
 ```
-3. npm
+3. npm esbuild
 
 ```
 npm install --save-dev esbuild
