@@ -59,7 +59,7 @@ module.exports = defineConfig({
 });
 ```
 Essa configuração segue a integração recomendada na documentação do Cucumber Preprocessor, adaptada para CommonJS. 
-[GitHub(https://github.com/badeball/cypress-cucumber-preprocessor/blob/master/docs/quick-start.md?utm_source=chatgpt.com)
+[GitHub](https://github.com/badeball/cypress-cucumber-preprocessor/blob/master/docs/quick-start.md?utm_source=chatgpt.com)
 
 ### O que configuramos?
 
