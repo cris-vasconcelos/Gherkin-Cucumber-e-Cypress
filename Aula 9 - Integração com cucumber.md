@@ -40,8 +40,12 @@ const {
 } = require("@badeball/cypress-cucumber-preprocessor/esbuild");
 
 module.exports = defineConfig({
-  e2e: {
+ e2e: {
+    baseUrl: "https://www.saucedemo.com",
     specPattern: "**/*.feature",
+    stepDefinitions: [
+        "cypress/e2e/step_definitions/**/*.js"
+    ],
 
     async setupNodeEvents(on, config) {
       await addCucumberPreprocessorPlugin(on, config);
